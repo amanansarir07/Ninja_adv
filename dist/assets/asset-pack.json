@@ -1,0 +1,748 @@
+{
+  "fonts": {
+    "files": [
+      {
+        "url": "https://retro-pixel-font.takwolf.com/arcade/retro-pixel-arcade.otf.woff2?r=0.8454860941416305",
+        "type": "font",
+        "key": "RetroPixel",
+        "fontType": "opentype"
+      }
+    ]
+  },
+  "tilemaps": {
+    "files": [
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1_map",
+        "url": "https://cdn-game-mcp.gambo.ai/87d1e73c-f31f-4a4e-9ca6-a6ee0431a8fe/tile_maps/level1_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level2_map",
+        "url": "https://cdn-game-mcp.gambo.ai/e3ca6e1f-4569-4260-80ee-2879faf85ea1/tile_maps/level2_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level3_map",
+        "url": "https://cdn-game-mcp.gambo.ai/5ff3dc1c-b40c-45cc-ab54-e8420f92276b/tile_maps/level3_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level4_map",
+        "url": "assets/tile_maps/level4_map.json"
+      }
+    ]
+  },
+  "tilesets": {
+    "files": [
+      {
+        "type": "image",
+        "key": "forest_ground",
+        "url": "https://cdn-game-mcp.gambo.ai/23fc7413-cd86-4f37-bcee-ee7322aeeefd/tilesets/forest_ground.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_ruins_ground",
+        "url": "https://cdn-game-mcp.gambo.ai/1d76e7f3-d5bc-47f6-b50b-52840869412b/tilesets/desert_ruins_ground.png"
+      },
+      {
+        "type": "image",
+        "key": "thunder_temple_ground",
+        "url": "https://cdn-game-mcp.gambo.ai/86599102-14da-49b6-9c74-b5be3397d352/tilesets/thunder_temple_ground.png"
+      },
+      {
+        "type": "image",
+        "key": "fire_fortress_ground",
+        "url": "https://cdn-game-mcp.gambo.ai/eeb98bb0-34dc-43a8-859e-0afd451e4f6e/tilesets/fire_fortress_ground.png"
+      }
+    ]
+  },
+  "backgrounds": {
+    "files": [
+      {
+        "type": "image",
+        "key": "forest_background",
+        "url": "https://cdn-game-mcp.gambo.ai/5b2df951-4b4e-43ed-8e28-13b19df88a24/images/forest_background.png"
+      },
+      {
+        "type": "image",
+        "key": "konoha_village_background",
+        "url": "https://cdn-game-mcp.gambo.ai/d5ec1b55-922c-4969-8333-1c8226913841/images/konoha_village_background_v2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_ruins_background",
+        "url": "https://cdn-game-mcp.gambo.ai/39446a9f-1498-4664-a51a-9f1c3268df17/images/desert_ruins_background.png"
+      },
+      {
+        "type": "image",
+        "key": "thunder_temple_background",
+        "url": "https://cdn-game-mcp.gambo.ai/7abf42ef-09e3-4b77-bf99-9f7de15f9c3b/images/thunder_temple_background.png"
+      },
+      {
+        "type": "image",
+        "key": "fire_fortress_background",
+        "url": "https://cdn-game-mcp.gambo.ai/a3f80515-f2a5-4904-9f6b-4557c49b4aa4/images/fire_fortress_background.png"
+      },
+      {
+        "type": "image",
+        "key": "clean_background",
+        "url": "https://cdn-game-mcp.gambo.ai/46d89bc5-281c-4ee4-96cd-5acfc1f76271/images/clean_title_background.png"
+      }
+    ]
+  },
+  "ui_images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "game_title",
+        "url": "https://cdn-game-mcp.gambo.ai/71e13e7d-0bef-4985-91c9-10601972ae01/images/game_title.png"
+      },
+      {
+        "type": "image",
+        "key": "ninja_game_title",
+        "url": "https://cdn-game-mcp.gambo.ai/2a192910-d3b2-4ebe-8547-74128548d0bb/images/ninja_game_title.png"
+      },
+      {
+        "type": "image",
+        "key": "chidori_icon",
+        "url": "https://cdn-game-mcp.gambo.ai/3d7556d6-76bf-4883-aa7b-61ec58be5722/images/chidori_skill_icon.png"
+      },
+      {
+        "type": "image",
+        "key": "sharingan_icon",
+        "url": "https://cdn-game-mcp.gambo.ai/bf7100c7-a0b8-4ab1-931f-2aa4c34665f5/images/sharingan_skill_icon.png"
+      },
+      {
+        "type": "image",
+        "key": "rasengan_icon",
+        "url": "https://cdn-game-mcp.gambo.ai/4e41c441-7f6a-4a02-82dc-711399977506/images/rasengan_skill_icon.png"
+      },
+      {
+        "type": "image",
+        "key": "summoning_icon",
+        "url": "https://cdn-game-mcp.gambo.ai/c5887a30-5ce7-455e-aac3-68a650f69892/images/summoning_skill_icon.png"
+      }
+    ]
+  },
+  "character_images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "naruto_pose",
+        "url": "https://cdn-game-mcp.gambo.ai/41d51bad-f36a-4697-8451-94a3cc389150/images/naruto_title_pose_facing_center.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_pose",
+        "url": "https://cdn-game-mcp.gambo.ai/ee4ec1db-e8fe-42ee-a2e3-43c9a95c6c68/images/sasuke_title_pose.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_select",
+        "url": "https://cdn-game-mcp.gambo.ai/1a62ea7d-3a23-4882-897f-06f4e9a80da2/images/sasuke_character_select_hd.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_select",
+        "url": "https://cdn-game-mcp.gambo.ai/2b70578e-c726-410e-9170-56a44078c4ec/images/naruto_character_select_hd.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_select",
+        "url": "https://cdn-game-mcp.gambo.ai/f7e80aef-0103-4300-8f41-7f03543fee0a/images/kakashi_character_select_hd.png"
+      },
+      {
+        "type": "image",
+        "key": "select_background",
+        "url": "https://cdn-game-mcp.gambo.ai/46d89bc5-281c-4ee4-96cd-5acfc1f76271/images/clean_title_background.png"
+      }
+    ]
+  },
+  "kakashi_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "kakashi_idle_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/e35c3529-a1e0-4469-9760-403138e9cfff/animations/kakashi_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_idle_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/d852ad76-003d-43b7-9784-0f14981d389a/animations/kakashi_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_walk_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/a52cc193-00fc-48f7-bbdb-6d31d55ce272/animations/kakashi_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_walk_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/29dd5ff3-0309-440b-bd6b-ff14374f4b52/animations/kakashi_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_jump_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/7d2b1cc0-dae5-4f78-841e-0607798886ce/animations/kakashi_jump_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_jump_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/e80acc3f-73eb-4be7-a37b-8ac85b37e3af/animations/kakashi_jump_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_punch_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/e2cccd47-cf5f-4bfc-9088-df1db5c09ced/animations/kakashi_punch_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_punch_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/fbc5bd1e-99b5-49c5-9e35-3c01d25d0ff6/animations/kakashi_punch_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_kick_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/948fd6e8-699a-4f52-825e-ce2ec98979eb/animations/kakashi_kick_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_kick_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/5be02646-5f64-4337-81c5-43b5821682a5/animations/kakashi_kick_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_chidori_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/d9cd2f3f-7ed1-4238-9e29-708064c55c3a/animations/kakashi_chidori_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_chidori_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/5634a206-3254-4b44-9aac-739ccc23138c/animations/kakashi_chidori_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_die_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/0de15451-5132-4899-ba13-f9e6f3eead0d/animations/kakashi_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_die_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/e1134ff6-e385-4040-990b-bd1f6d1671d5/animations/kakashi_die_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_sharingan_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/e4a903c2-a39e-43f5-815f-320042fb5aec/animations/kakashi_sharingan_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "kakashi_sharingan_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/11e57578-6555-4006-8aa8-97f30b0d6738/animations/kakashi_sharingan_R/frame_2.png"
+      }
+    ]
+  },
+  "sasuke_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "sasuke_idle_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/c91c7b27-55a7-4514-86a4-f918e0c773ae/animations/sasuke_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_idle_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/e902b516-d4c3-4568-ab46-7040df3da8b5/animations/sasuke_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_walk_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/5f334567-31b7-4fdf-a745-e0203d034a41/animations/sasuke_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_walk_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/53b65d4c-ffc7-415f-8cd9-cdafbf973ef8/animations/sasuke_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_jump_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/f98ee1b9-5cc7-41e9-b2d5-acb2105b0f1c/animations/sasuke_jump_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_jump_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/18bb1edf-3825-4358-a317-fa868d1d44b3/animations/sasuke_jump_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_punch_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/730d0883-34c4-4a76-9b2c-05073f22d96b/animations/sasuke_punch_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_punch_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/b33330b5-ebbd-4bbd-aede-9cdf5601b020/animations/sasuke_punch_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_kick_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/191c3439-efbd-4068-bf00-cfefdbd7c52f/animations/sasuke_kick_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_kick_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/7eb3d6f5-ba0a-46eb-a79a-3051bd1d415a/animations/sasuke_kick_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_chidori_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/dcb6e659-8707-4209-9c69-25447180e220/animations/sasuke_chidori_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_chidori_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/8bcb1bee-340e-4aaa-aa4b-ef588d057012/animations/sasuke_chidori_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_die_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/6a2e3289-1c8c-4b32-9607-7f4942fc9f90/animations/sasuke_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_die_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/6a152f05-41ee-4dbe-871d-9ab27a9bdc1e/animations/sasuke_die_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_sharingan_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/5b4adf38-3b77-4a27-bb4e-e62ca36350e1/animations/sasuke_sharingan_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_sharingan_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/ec0108b2-1f28-44de-873d-4c3658ce72e5/animations/sasuke_sharingan_R/frame_2.png"
+      }
+    ]
+  },
+  "naruto_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "naruto_idle_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/b1f75c7f-7697-4ab6-a999-b8c627bdfebf/animations/naruto_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_idle_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/f1a43fc0-dc70-4dca-a805-92df146893ff/animations/naruto_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_walk_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/6f114eb6-4dbb-423d-a283-40f038552908/animations/naruto_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_walk_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/3c806483-ec91-4266-a3fa-e09d58c662f3/animations/naruto_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_walk_frame3",
+        "url": "https://cdn-game-mcp.gambo.ai/46dd11d4-3fae-49d1-9faf-fa1e714d6e55/animations/naruto_walk_R/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_walk_frame4",
+        "url": "https://cdn-game-mcp.gambo.ai/3c806483-ec91-4266-a3fa-e09d58c662f3/animations/naruto_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_jump_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/856de9b9-8f99-4bb5-ae41-3e2284c1bef8/animations/naruto_jump_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_jump_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/f25d183f-477c-417b-a4da-587fea5e826b/animations/naruto_jump_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_punch_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/835a0f05-c3f0-47c0-b1e1-b30c9c602c44/animations/naruto_punch_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_punch_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/0d616584-7572-4e82-b58c-ea956b5f0237/animations/naruto_punch_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_kick_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/7aa30f57-e8f7-41e8-b192-ce5b10cb4b09/animations/naruto_kick_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_kick_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/1b554a66-9f54-4da6-a2b1-7faf76605f4e/animations/naruto_kick_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_rasengan_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/252a646a-db54-48a8-8651-ad5224e748e4/animations/naruto_rasengan_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_rasengan_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/daffc2c9-6233-439a-84a3-6451df0a368e/animations/naruto_rasengan_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_summoning_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/fed2de94-633e-411c-811a-c3011919a9e1/animations/naruto_summoning_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_summoning_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/6296ab3c-1bbe-4aa0-9d79-c70d0c4d4499/animations/naruto_summoning_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_die_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/94c716b6-e74b-4904-ab48-6a0e4ebbd683/animations/naruto_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "naruto_die_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/59758dd1-cc55-4440-bcde-a73c0dd8b909/animations/naruto_die_R/frame_2.png"
+      }
+    ]
+  },
+  "toad_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "toad_idle_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/d67c9d93-286e-41e2-93a0-7fa00d31e967/animations/toad_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "toad_idle_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/6e8767b1-09a1-4b52-8c0f-74b2391000d1/animations/toad_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "toad_walk_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/46c31509-7ba1-409b-a21e-3ef03f14f54b/animations/toad_walk_new_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "toad_walk_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/d33583f6-0afe-4657-b065-0471e17cf8df/animations/toad_walk_new_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "toad_attack_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/17cf788a-3e3e-4552-ac52-c5b31089e01e/animations/toad_attack_new_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "toad_attack_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/23a7fb83-1ec0-4c37-8741-9322796c9068/animations/toad_attack_new_R/frame_2.png"
+      }
+    ]
+  },
+  "sound_ninja_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "sound_ninja_idle_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/1075c2fa-73e1-451e-8043-c0be7535871e/animations/sound_ninja_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_idle_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/fd41eae8-5503-45db-b628-a8752ab3badd/animations/sound_ninja_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_walk_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/018fe54e-3ca2-4c04-8d50-b49c713010a8/animations/sound_ninja_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_walk_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/bd19ede6-5724-419b-a80c-64f55b802a6c/animations/sound_ninja_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_walk_frame3",
+        "url": "https://cdn-game-mcp.gambo.ai/305c1b07-63b0-4e25-b8b7-dc04ea38a609/animations/sound_ninja_walk_R/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_walk_frame4",
+        "url": "https://cdn-game-mcp.gambo.ai/bd19ede6-5724-419b-a80c-64f55b802a6c/animations/sound_ninja_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_attack_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/eba1399e-e835-42d8-886f-40bf774a885c/animations/sound_ninja_attack_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_attack_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/f91c1ab4-cdef-481a-a073-a937608dbb08/animations/sound_ninja_attack_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_die_frame1",
+        "url": "https://cdn-game-mcp.gambo.ai/9ff156f7-e3ad-4394-95dd-911f8467ddf6/animations/sound_ninja_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "sound_ninja_die_frame2",
+        "url": "https://cdn-game-mcp.gambo.ai/36dda6e2-ce56-4374-8a71-9b2cbba62256/animations/sound_ninja_die_R/frame_2.png"
+      }
+    ]
+  },
+  "decorations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "trees_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/8603aa82-dbcc-4998-a841-a6e574f5cb2a/images/trees_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "trees_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/7f3f7726-0fa6-46dc-bdcd-e26ee3381d7a/images/trees_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "trees_variant_3",
+        "url": "https://cdn-game-mcp.gambo.ai/0f0984d3-d1e5-46bf-ba7d-f222947cbd5a/images/trees_decorations/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "rocks_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/392fb73c-fe02-4950-83c4-8cf943bfc4cb/images/rocks_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "rocks_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/c28f63a9-f284-4289-8d7d-1e40887cb239/images/rocks_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "bushes_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/c7c22009-1dae-4d79-8838-bb0ff6ddcb38/images/bushes_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "bushes_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/d5c3fae4-0a9f-4a17-a7b8-41a980b90bfc/images/bushes_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "grass_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/049e1f34-72d6-4b59-bed9-b59b15d6593e/images/grass_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "wooden_post_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/5d554916-92d4-423d-8395-78fe3bda3f76/images/wooden_posts_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_pillar_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/72b1e1f6-c4c3-443a-b3cd-29dea35e04f6/images/desert_pillars_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_pillar_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/464f11bc-f830-4295-92cc-c5e25a389617/images/desert_pillars_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_pillar_variant_3",
+        "url": "https://cdn-game-mcp.gambo.ai/4595dd9c-5c5a-49cd-9506-3d6f0c4fcaa8/images/desert_pillars_decorations/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "thunder_crystal_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/13139101-dab4-4c7b-9d64-749b1375e26d/images/thunder_crystals_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "thunder_crystal_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/07d11ebc-7dff-4855-ab55-3e262e0d5594/images/thunder_crystals_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "thunder_crystal_variant_3",
+        "url": "https://cdn-game-mcp.gambo.ai/b8236855-4287-43e0-88f4-e57223d5b39a/images/thunder_crystals_decorations/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "fire_brazier_variant_1",
+        "url": "https://cdn-game-mcp.gambo.ai/5a73752f-7e27-4579-bd70-0c9f07a41be1/images/fire_braziers_decorations/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "fire_brazier_variant_2",
+        "url": "https://cdn-game-mcp.gambo.ai/e5610144-3f60-40d8-867f-3359b71f3852/images/fire_braziers_decorations/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "fire_brazier_variant_3",
+        "url": "https://cdn-game-mcp.gambo.ai/8ae43d49-b6f3-4f74-8bec-311fb0e10002/images/fire_braziers_decorations/variant_3.png"
+      }
+    ]
+  },
+  "effects": {
+    "files": [
+      {
+        "type": "image",
+        "key": "dust_effect",
+        "url": "https://cdn-game-mcp.gambo.ai/e4cf36d7-1de8-43d1-99ec-ac8d1e44a883/images/dust_effect.png"
+      },
+      {
+        "type": "image",
+        "key": "red_sharingan_distortion",
+        "url": "https://cdn-game-mcp.gambo.ai/523b2939-8cb0-4082-a9d0-8fcba4b78d3f/images/red_sharingan_distortion.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_black_vortex",
+        "url": "https://cdn-game-mcp.gambo.ai/a9c6bd2a-b46d-430a-909a-95873762a26e/images/sasuke_black_vortex.png"
+      },
+      {
+        "type": "image",
+        "key": "sasuke_sharingan_summon",
+        "url": "https://cdn-game-mcp.gambo.ai/56e1284b-da67-4cd5-9004-f14ae2c5a065/images/sasuke_sharingan_summon.png"
+      },
+      {
+        "type": "image",
+        "key": "rasengan_effect",
+        "url": "https://cdn-game-mcp.gambo.ai/0d26cce2-7017-4ec4-a558-b979d52b6dca/images/rasengan_effect.png"
+      },
+      {
+        "type": "image",
+        "key": "summoning_smoke",
+        "url": "https://cdn-game-mcp.gambo.ai/518ac0a3-351d-4393-ad22-c18068a8aaa5/images/summoning_smoke.png"
+      },
+      {
+        "type": "image",
+        "key": "black_vortex_portal",
+        "url": "https://cdn-game-mcp.gambo.ai/a64ffde6-dba9-48d1-85a6-05039c4b7749/images/black_vortex_portal.png"
+      }
+    ]
+  },
+  "sound_effects": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "ninja_jump_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/e22f27d0-6eb7-4570-92dd-25ff4021b14b_ninja_jump_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "punch_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/63bd56f9-ddb2-4729-9113-d68b382a804e_punch_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "kick_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/26b3e554-3c0c-40ac-9666-3709f135963b_kick_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "chidori_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/0907a67b-56d4-4ba2-87a8-e1a060795bf1_chidori_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ninja_hurt_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/5211c7fe-d726-4098-b739-1126245622cd_ninja_hurt_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ninja_die_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/daa9bb9c-ef68-494c-a665-c048e8dd4bc0_ninja_die_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ninja_slash_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/ba4c0792-9685-4609-ba56-da2bc2bfb5cf_ninja_slash_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "game_over_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/89c0ede7-73de-418c-ab0a-761b9df6c41c_game_over_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ui_click_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/b86ccff4-0702-414e-aa35-e075a7bed822_ui_click_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "sharingan_distortion_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/4effa919-d77a-42a2-a535-62c4977096df_sharingan_distortion_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "naruto_punch_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/af514495-e2e8-4c9c-b6cb-659afe768294_naruto_punch_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "naruto_kick_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/1d7cc14e-a339-4793-9e37-b55639bb2ef1_naruto_kick_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "rasengan_charge_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/a8ce5c67-4f7e-49d2-b66a-b99f040d849c_rasengan_charge_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "rasengan_impact_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/bdc99b83-ff8a-4bf9-a352-a4a4b68b9e13_rasengan_impact_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "summoning_jutsu_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/61388d13-0802-45e4-b43c-34ebcf753a04_summoning_jutsu_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ui_select_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/45b93b08-b5f4-406a-8e6e-72ba5e9b67f6_ui_select_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ui_confirm_sound",
+        "url": "https://cdn-game-mcp.gambo.ai/7b65d6c2-c64f-4e67-9d83-2a0a1b7d6e8a_ui_confirm_sound.mp3"
+      }
+    ]
+  },
+  "background_musics": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "ninja_adventure_theme",
+        "url": "https://cdn-game-mcp.gambo.ai/19c02cd6-3e79-4939-892a-229fb96bf1ce/music/ninja_adventure_theme.wav"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Gambo AI",
+    "version": 1,
+    "showAllFilesInBlocks": false
+  }
+}
