@@ -65,7 +65,7 @@ Backgrounds use parallax (slower scroll than foreground). All levels are single-
 
 ---
 
-## Technical Summary (Optional)
+## Technical Summary
 
 - **Engine:** Phaser 3 (JavaScript).  
 - **Build:** Vite, ES modules.  
